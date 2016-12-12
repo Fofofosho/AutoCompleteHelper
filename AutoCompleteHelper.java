@@ -33,7 +33,7 @@ class AutoCompleteHelper {
                 current = current.children.get(letter);
             }
             else
-                return null;
+                return new ArrayList<String>();
         }
 
         //visit and count all leaves from this current TrieNode
